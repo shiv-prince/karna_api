@@ -23,7 +23,7 @@ if(isset($_POST["db"])){
 }
 else return;
 
-$query="INSERT INTO `user_table`(`uname`, `ugender`, `ucontact`, `udb_value`) 
+$query="INSERT INTO `K_User-table`(`uname`, `ugender`, `ucontact`, `udbvalue`) 
 VALUES ('$name','$gender','$contact','$db')";
 
 $exe=mysqli_query($con, $query);
